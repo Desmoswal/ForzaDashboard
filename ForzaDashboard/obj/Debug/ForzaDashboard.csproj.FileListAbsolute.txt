@@ -1,0 +1,16 @@
+D:\Projects\ForzaDashboard\ForzaDashboard\bin\Debug\ForzaDashboard.exe.config
+D:\Projects\ForzaDashboard\ForzaDashboard\bin\Debug\ForzaDashboard.exe
+D:\Projects\ForzaDashboard\ForzaDashboard\bin\Debug\ForzaDashboard.pdb
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\ForzaDashboard.csprojAssemblyReference.cache
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\MainWindow.g.cs
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\App.g.cs
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\ForzaDashboard_MarkupCompile.cache
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\ForzaDashboard_MarkupCompile.lref
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\MainWindow.baml
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\ForzaDashboard.g.resources
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\ForzaDashboard.Properties.Resources.resources
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\ForzaDashboard.csproj.GenerateResource.cache
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\ForzaDashboard.csproj.CoreCompileInputs.cache
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\ForzaDashboard.exe
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\ForzaDashboard.pdb
+D:\Projects\ForzaDashboard\ForzaDashboard\obj\Debug\ForzaDashboard.csproj.Fody.CopyLocal.cache

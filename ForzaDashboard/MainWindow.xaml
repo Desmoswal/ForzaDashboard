@@ -1,0 +1,53 @@
+﻿<Window x:Class="ForzaDashboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ForzaDashboard"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0" Grid.Row="0">
+            <TextBlock FontSize="20" FontWeight="Bold">Make:</TextBlock>
+            <TextBlock FontSize="18">BMW</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock FontSize="20" FontWeight="Bold">Model:</TextBlock>
+            <TextBlock FontSize="18">M2 Coupé</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="2">
+            <TextBlock FontSize="20" FontWeight="Bold">Drivetrain:</TextBlock>
+            <TextBlock FontSize="18">RWD</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="1">
+            <TextBlock FontSize="20" FontWeight="Bold">RPM:</TextBlock>
+            <TextBlock FontSize="18" Text="{Binding Path=Rpm}"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <TextBlock FontSize="20" FontWeight="Bold">Speed:</TextBlock>
+            <TextBlock FontSize="18" Text="{Binding Path=Speed}"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="1">
+            <TextBlock FontSize="20" FontWeight="Bold">Power:</TextBlock>
+            <TextBlock FontSize="18" Text="{Binding Path=Power}"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="2">
+            <TextBlock FontSize="20" FontWeight="Bold">Torque:</TextBlock>
+            <TextBlock FontSize="18" Text="{Binding Path=Torque}"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="2">
+            <TextBlock FontSize="20" FontWeight="Bold">Fuel:</TextBlock>
+            <TextBlock FontSize="18" Text="{Binding Path=Fuel}"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
